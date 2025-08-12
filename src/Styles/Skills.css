@@ -1,0 +1,29 @@
+.skills-section {
+    background: linear-gradient(135deg, rgba(111, 66, 193, 0.1), rgba(32, 201, 151, 0.1));
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.section-title {
+    color: rgb(111, 66, 193);
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.skill-card {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    background: rgb(243, 243, 255);
+}
+
+.skill-icon {
+    font-size: 2rem;
+    color: rgb(32, 201, 151);
+}

@@ -1,0 +1,74 @@
+/* Navbar */
+.custom-navbar {
+    background: linear-gradient(90deg, rgb(111, 66, 193), rgb(32, 201, 151));
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    padding-left: 40px;
+}
+
+/* Sidebar */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(180deg, rgb(111, 66, 193), rgb(32, 201, 151));
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    padding-top: 60px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    z-index: 999;
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+.sidebar a {
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.sidebar a:hover {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.home-link {
+    margin-top: 20px;
+}
+
+/* Close button */
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 28px;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Large screen nav */
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #e0e0e0;
+}
