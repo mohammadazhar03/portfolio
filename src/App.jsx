@@ -4,6 +4,8 @@ import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import Contact from './Components/Contact';
 import About from './Components/About';
+import Education from "./Components/Education";
+import Internship from "./Components/Intership";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -27,6 +29,8 @@ function App() {
     <Hero />
     <About />
     <Projects />
+    <Education/>
+    <Internship/>
     <Skills />
     <Contact />
       
