@@ -1,4 +1,4 @@
-import './styles/style.css';
+import './Styles/style.css'
 import Navbar from "./Components/Navbar"
 import Hero from './components/Hero';
 import Projects from './components/Projects';
