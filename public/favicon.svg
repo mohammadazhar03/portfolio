@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Modern gradient background -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Circular container with subtle shadow -->
+  <circle cx="50" cy="50" r="48" fill="url(#gradient)" stroke="#fff" stroke-width="1" filter="url(#shadow)"/>
+  
+  <!-- Modern "A" letter with crisp design -->
+  <path d="M50 25 L70 75 L60 75 L50 50 L40 75 L30 75 Z" fill="#ffffff"/>
+  
+  <!-- Subtle shadow filter -->
+  <defs>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="rgba(0,0,0,0.2)"/>
+    </filter>
+  </defs>
+</svg>
