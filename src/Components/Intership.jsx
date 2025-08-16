@@ -13,7 +13,7 @@ const Internship = () => {
     {
       company: "Datapoint IT Solutions",
       role: "Frontend Web Developer",
-      duration: "May 2025 - June 2025 ",
+      duration: "May 2023 - June 2023 ",
       description: "Worked on building dynamic web applications using React and Node.js, implementing REST APIs and improving UI/UX."
     },
     {

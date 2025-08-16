@@ -8,14 +8,9 @@ const projects = [
     link: "https://course4you.netlify.app/" // replace with actual URL if deployed
   },
   {
-    title: "Portfolio Website",
-    description: "A personal portfolio built with React, Bootstrap, and modern animations.",
-    link: "https://your-portfolio-link.com"
-  },
-  {
-    title: "Weather App",
-    description: "Built using OpenWeatherMap API and React. Displays real-time weather updates.",
-    link: "https://your-weather-app.com"
+    title: "Job Tracker",
+    description: "A React-based job application management system that helps users organize, track, and manage their job search process efficiently.",
+    link: "https://job-trackerapi.netlify.app/"
   },
   {
     title: "Blog Platform",

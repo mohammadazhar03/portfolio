@@ -91,3 +91,29 @@
     font-size: 0.95rem;
     color: #ccc;
 }
+@media (max-width: 768px) {
+    .timeline::after {
+        left: 20px;
+        /* Move the vertical line to the side */
+    }
+
+    .timeline-item {
+        width: 100%;
+        /* Full width on mobile */
+        padding-left: 50px;
+        /* Space for the line */
+        padding-right: 0;
+    }
+
+    .timeline-item.left,
+    .timeline-item.right {
+        left: 0;
+        /* Remove split positioning */
+    }
+
+    .timeline-item::after {
+        left: 15px;
+        /* Adjust dot position */
+        right: auto;
+    }
+}

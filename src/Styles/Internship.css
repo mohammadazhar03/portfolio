@@ -93,3 +93,25 @@
     opacity: 0;
     transform: translateX(50px);
 }
+@media (max-width: 768px) {
+    .internship-roadmap {
+        padding-left: 0;
+    }
+
+    .roadmap-item {
+        flex-direction: column !important;
+        /* Force vertical stacking */
+        align-items: center;
+    }
+
+    .roadmap-box {
+        width: 90%;
+        /* Full width with some margin */
+        text-align: left !important;
+    }
+
+    .roadmap-connector {
+        display: none;
+        /* Hide center connector on mobile */
+    }
+}
