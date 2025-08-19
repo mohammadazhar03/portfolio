@@ -19,8 +19,8 @@ const Internship = () => {
     {
       company: "CodeForDigitalIndia",
       role: "Frontend Web Developer",
-      duration: "Sep 2024 - Feb 2025 ",
-      description: "Mean Stack and Java Development; contributed to feature development and bug fixing for various modules."
+      duration: "Oct 2024 - Mar 2025 ",
+      description: "Full Stack MERN Development, contributed to feature development and bug fixing for various modules."
     }
   ];
 
